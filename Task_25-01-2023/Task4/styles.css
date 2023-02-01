@@ -1,0 +1,10 @@
+    body {
+        background-color: grey;
+    }
+    
+    img {
+        width: calc(25% - 10%);
+        height: calc(250px - 100px);
+        margin: calc(10px + 30px);
+        padding-left: calc(100px - 80px);
+    }
