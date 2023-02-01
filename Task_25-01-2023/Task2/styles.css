@@ -1,0 +1,16 @@
+@font-face {
+    font-family: model1;
+    src: url(./font/model1.ttf);
+}
+
+h1 {
+    font-family: "model1";
+}
+
+h3 {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+h2 {
+    font-family: 'Space Grotesk', sans-serif;
+}
