@@ -1,0 +1,128 @@
+           body {
+               background-color: rgba(128, 128, 128, 0.562);
+               width: 100%;
+               margin: 0px;
+               padding: 10px;
+               box-sizing: border-box;
+           }
+           
+           .r1 .c1 {
+               background-color: red;
+               width: 24%;
+               height: 80px;
+               float: left;
+               padding: 10px 0 0 0px;
+               margin-top: 1%;
+           }
+           
+           .r1 .c2 {
+               background-color: blue;
+               width: 74%;
+               height: 80px;
+               float: right;
+               padding: 10px 0 0 0px;
+               margin-top: 1%;
+           }
+           
+           .r2 .c1 {
+               background-color: rgb(199, 168, 28);
+               width: 100%;
+               min-height: 150px;
+               float: left;
+               padding: 10px 0 0 0px;
+               margin-top: 1%;
+           }
+           
+           .r3 .c1 {
+               background-color: rgb(104, 245, 10);
+               width: 31%;
+               min-height: 80px;
+               float: left;
+               padding: 10px 0 0 0px;
+               margin-top: 1%;
+           }
+           
+           .r3 .c2 {
+               background-color: rgb(190, 10, 245);
+               width: 33%;
+               min-height: 80px;
+               float: left;
+               padding: 10px 0 0 0px;
+               margin-top: 1%;
+               margin-left: 2%;
+           }
+           
+           .r3 .c3 {
+               background-color: rgb(253, 6, 179);
+               width: 31%;
+               min-height: 80px;
+               float: right;
+               padding: 10px 0 0 0px;
+               margin-top: 1%;
+               margin-left: 3%;
+           }
+           
+           .r4 .c1 {
+               background-color: rgb(247, 97, 11);
+               width: 49%;
+               min-height: 80px;
+               float: left;
+               padding: 10px 0 0 0px;
+               margin-top: 1%;
+           }
+           
+           .r4 .c2 {
+               background-color: rgb(255, 238, 1);
+               width: 49%;
+               min-height: 80px;
+               float: right;
+               padding: 10px 0 0 0px;
+               margin-top: 1%;
+           }
+           
+           .r5 .c1 {
+               background-color: rgb(52, 134, 19);
+               width: 24%;
+               min-height: 50px;
+               float: left;
+               padding: 10px 0 0 0px;
+               margin-top: 1%;
+           }
+           
+           .r5 .c2 {
+               background-color: rgb(1, 255, 255);
+               width: 24%;
+               min-height: 50px;
+               float: left;
+               padding: 10px 0 0 0px;
+               margin-top: 1%;
+               margin-left: 2%;
+           }
+           
+           .r5 .c3 {
+               background-color: rgb(192, 29, 29);
+               width: 23%;
+               min-height: 50px;
+               float: right;
+               padding: 10px 0 0 0px;
+               margin-top: 1%;
+           }
+           
+           .r5 .c4 {
+               background-color: rgb(111, 1, 255);
+               width: 23%;
+               min-height: 50px;
+               float: right;
+               padding: 10px 0 0 0px;
+               margin-top: 1%;
+               margin-right: 2%;
+           }
+           
+           .r6 .c1 {
+               background-color: rgb(88, 7, 7);
+               width: 100%;
+               min-height: 25px;
+               float: right;
+               padding: 10px 0 0 0px;
+               margin-top: 1%;
+           }
