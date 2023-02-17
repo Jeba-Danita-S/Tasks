@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: calc(50% - 500px/2);
+    top: calc(50% - 400px/2);
+}
+
+.box1 {
+    width: 250px;
+    height: 200px;
+    background: red;
+    border-radius: 20px 20px 0px 20px;
+    position: absolute;
+    top: 2px;
+}
+
+.box2 {
+    width: 250px;
+    height: 200px;
+    background: green;
+    border-radius: 20px 0px 20px 20px;
+    position: absolute;
+    top: 200px;
+}
+
+.box3 {
+    width: 250px;
+    height: 200px;
+    background: blue;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    border-radius: 20px 20px 20px 0px;
+}
+
+.box4 {
+    width: 250px;
+    height: 200px;
+    background: orange;
+    position: absolute;
+    top: 200px;
+    right: 2px;
+    border-radius: 0px 20px 20px 20px;
+}
+
+div {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.number,
+.task {
+    position: relative;
+    top: calc(180px - 200px/2);
+    padding-bottom: 10px;
+}
+
+.name1 {
+    color: white;
+    background-color: grey;
+    height: 40px;
+    width: 180px;
+    border-radius: 10px 10px 0 0px;
+    position: absolute;
+    top: -25px;
+    z-index: -1;
+    left: 30px;
+    padding-top: 5px;
+}
+
+.name2 {
+    color: white;
+    background-color: grey;
+    height: 40px;
+    width: 180px;
+    border-radius: 10px 10px 0 0px;
+    position: absolute;
+    left: 285px;
+    top: -25px;
+    padding-top: 5px;
+    z-index: -1;
+}
+
+.name3 {
+    color: white;
+    background-color: grey;
+    height: 150px;
+    width: 30px;
+    border-radius: 0px 10px 10px 0px;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    position: absolute;
+    left: -34px;
+    top: 225px;
+    z-index: -1;
+    padding-left: 5px;
+}
+
+.name4 {
+    color: white;
+    background-color: grey;
+    height: 150px;
+    width: 30px;
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+    position: relative;
+    left: -35px;
+    top: 25px;
+    z-index: -1;
+    padding-left: 5px;
+}
