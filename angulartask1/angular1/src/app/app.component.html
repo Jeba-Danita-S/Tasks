@@ -1,0 +1,62 @@
+<div class="container w-50">
+  <div class="text-center pt-3">
+    <h1>Search any country</h1>
+  </div><br>
+  <form [formGroup]="searchForm" class="d-flex justify-content-center">
+    <input formControlName="location" class="form-control me-2 w-75 border border-dark" type="search" placeholder="Search" aria-label="Search">
+    <button (click)="onSearch()" class="btn btn-outline-success" type="button">Search</button>
+  </form>
+
+<!-- Information about countries -->
+  <div class="me-5" *ngIf="selectedCountry">
+    <h2 class="text-center pt-3">Country Details: {{ selectedCountryName }}</h2>
+    <table class="table pe-3 border-dark" style="border: 1px solid;">
+      <tbody>
+        <tr>
+          <td style="border: 1px solid;">Country Codes:</td>
+          <td>{{ selectedCountryCodes }}</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid;">Capital:</td>
+          <td>{{ selectedCountryCapital }}</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid;">Region:</td>
+          <td>{{ selectedCountryRegion }}</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid;">Subregion:</td>
+          <td>{{ selectedCountrySubregion }}</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid;">Population:</td>
+          <td>{{ selectedCountryPopulation }}</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid;">Area:</td>
+          <td>{{ selectedCountryArea }} km²</td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid;">Timezones:</td>
+          <td>
+            <span *ngIf="selectedCountryTimezones.length > 0">
+              <li *ngFor="let tz of selectedCountryTimezones">{{ tz }}</li>
+            </span>
+            <span *ngIf="selectedCountryTimezones.length === 0">No timezones</span>
+          </td>
+        </tr>
+        <tr>
+          <td style="border: 1px solid;">Flag:</td>
+          <td>
+            <img [src]="selectedCountryFlag" alt="Country Flag" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>  
+
+<!-- Error Message -->
+<div *ngIf="searchForm.invalid && searchForm.dirty" class="text-center mt-3">
+  <p>Country not found</p>
+</div>
+</div>

@@ -1,0 +1,36 @@
+{
+  "posts": [
+    {
+      "name": "Daniel",
+      "email": "jeba@gmail.com",
+      "gender": "male",
+      "status": "inactive",
+      "id": 2
+    },
+    {
+      "name": "Jeba Danita",
+      "email": "jeba12@gmail.com",
+      "gender": "female",
+      "status": "inactive",
+      "id": 3
+    },
+    {
+      "id": "1",
+      "name": "Janita",
+      "email": "jani@gmail.com",
+      "gender": "female",
+      "status": "inactive"
+    },
+    {
+      "id": "4",
+      "name": "Akileswari",
+      "email": "aki@gmail.com",
+      "gender": "female",
+      "status": "inactive"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
