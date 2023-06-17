@@ -26,6 +26,10 @@
                         <td>{{ user.gender }}</td>
                         <td>{{ user.status }}</td>
                         <td>
+                            <button type="submit" (click)="onView(user)" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal" class="btn btn-sm btn-secondary me-2">
+                            <i class="fa fa-eye px-1"></i>View
+                        </button>
                             <button type="submit" (click)="onEdit(user)" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal" class="btn btn-sm btn-info me-2">
                                 <i class="fa fa-edit px-1"></i>Edit
@@ -84,6 +88,15 @@
                                         </select>
                                     </div>
                                 </form>
+                            </div>
+                        </div>
+                        <div class="modal-body">
+                            <div *ngIf="selectedUser">
+                                <p><strong>ID:</strong> {{ selectedUser.id }}</p>
+                                <p><strong>Name:</strong> {{ selectedUser.name }}</p>
+                                <p><strong>Email:</strong> {{ selectedUser.email }}</p>
+                                <p><strong>Gender:</strong> {{ selectedUser.gender }}</p>
+                                <p><strong>Status:</strong> {{ selectedUser.status }}</p>
                             </div>
                         </div>
                         <div class="modal-footer">

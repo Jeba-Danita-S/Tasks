@@ -73,6 +73,11 @@ export class UserComponent implements OnInit {
     );
   }
   
+  onView(user: any) {
+    this.showAdd = false;
+    this.showUpdate = false;
+    this.selectedUser = user;
+  }
 
   getAllUsers() {
     this.listService.fetchUsers().subscribe(
