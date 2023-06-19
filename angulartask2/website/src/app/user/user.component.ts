@@ -39,6 +39,7 @@ export class UserComponent implements OnInit {
     this.userForm.reset();
     this.showAdd = true;
     this.showUpdate = false;
+    this.selectedUser = false;
   }
 
   adduserdetails() {
@@ -101,6 +102,7 @@ export class UserComponent implements OnInit {
     this.showAdd = false;
     this.showUpdate = true;
     this.userForm.patchValue(user);
+    this.selectedUser = false;
   }
 
   updateuserdetails() {
