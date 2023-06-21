@@ -1,24 +1,66 @@
 {
   "posts": [
     {
-      "id": "1",
       "name": "Jeba Danita S",
       "email": "jeba@gmail.com",
+      "gender": "female",
+      "status": "inactive",
+      "id": "1"
+    },
+    {
+      "name": "Jeba Daniel S",
+      "email": "dani@gmail.com",
+      "gender": "male",
+      "status": "inactive",
+      "id": "2"
+    },
+    {
+      "name": "Jeba Janita S",
+      "email": "jani@gmail.com",
+      "gender": "female",
+      "status": "inactive",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "Jesiba J",
+      "email": "jesi@gmail.com",
       "gender": "female",
       "status": "inactive"
     },
     {
-      "id": "2",
-      "name": "Jeba Daniel S",
-      "email": "dani@gmail.com",
+      "id": "5",
+      "name": "Jebisha J",
+      "email": "jebi@gmail.com",
+      "gender": "female",
+      "status": "inactive"
+    },
+    {
+      "id": "6 ",
+      "name": "Blessy Sharon S",
+      "email": "bless@gmail.com",
+      "gender": "female",
+      "status": "inactive"
+    },
+    {
+      "id": "7",
+      "name": "Blessing Rokhan S",
+      "email": "rokhan@gmail.com",
       "gender": "male",
       "status": "inactive"
     },
     {
-      "id": "3",
-      "name": "Jeba Janita S",
-      "email": "jani@gmail.com",
+      "id": "8",
+      "name": "Bertina Pauline J",
+      "email": "paul@gmail.com",
       "gender": "female",
+      "status": "inactive"
+    },
+    {
+      "id": "9",
+      "name": "Bertin G Paul J",
+      "email": "bertin@gmail.com",
+      "gender": "male",
       "status": "inactive"
     }
   ],
